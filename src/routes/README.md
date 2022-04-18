@@ -1,0 +1,1 @@
+contain all your express routes, separated by module/area of your application
