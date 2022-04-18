@@ -1,0 +1,23 @@
+{
+  "name": "summer22",
+  "version": "1.0.0",
+  "description": "I don't know what this is going to be yet",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobcoi03/Summer22.git"
+  },
+  "author": "luongquangminh23@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bobcoi03/Summer22/issues"
+  },
+  "homepage": "https://github.com/bobcoi03/Summer22#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
