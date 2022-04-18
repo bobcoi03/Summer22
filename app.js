@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const PORT_NUMBER = 5000;
+const PORT_NUMBER = process.env.PORT || 5000;
 const hello_world = require('./src/routes/hello_world');
 
 app.use('/', hello_world);
