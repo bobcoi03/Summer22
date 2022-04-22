@@ -4,6 +4,7 @@
 	width: 5px;
 	left: 3px;
 	height: 50px;
+	z-index: 1;
 }
 
 .arrow_button_right {
@@ -12,4 +13,5 @@
 	right: 50px;
 	width: 5px;
 	height: 50px;
+	z-index: 1;
 }
