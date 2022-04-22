@@ -1,0 +1,15 @@
+.arrow_button_left {
+	position: absolute;
+	top: 50%;
+	width: 5px;
+	left: 3px;
+	height: 50px;
+}
+
+.arrow_button_right {
+	position: absolute;
+	top: 50%;
+	right: 50px;
+	width: 5px;
+	height: 50px;
+}
