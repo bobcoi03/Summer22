@@ -783,6 +783,10 @@ Ensure the default browser behavior of the `hidden` attribute.
           animation: spin 1s linear infinite;
 }
 
+.hover\:ease-in:hover {
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+
 @media (min-width: 640px) {
   .sm\:flex {
     display: flex;
@@ -818,6 +822,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:w-40 {
     width: 10rem;
+  }
+
+  .lg\:w-44 {
+    width: 11rem;
+  }
+
+  .lg\:w-48 {
+    width: 12rem;
+  }
+
+  .lg\:w-64 {
+    width: 16rem;
   }
 
   .lg\:flex-row {
