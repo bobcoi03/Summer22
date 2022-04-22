@@ -492,8 +492,32 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 10rem;
 }
 
+.h-20 {
+  height: 5rem;
+}
+
+.h-96 {
+  height: 24rem;
+}
+
+.h-72 {
+  height: 18rem;
+}
+
+.h-64 {
+  height: 16rem;
+}
+
+.h-56 {
+  height: 14rem;
+}
+
 .w-40 {
   width: 10rem;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .flex-shrink-0 {
@@ -788,6 +812,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 1024px) {
+  .lg\:h-56 {
+    height: 14rem;
+  }
+
+  .lg\:w-40 {
+    width: 10rem;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }
