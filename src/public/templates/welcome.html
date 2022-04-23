@@ -56,9 +56,11 @@
 		</a>
 	</div>
 	<div class="flex justify-center md:items-center h-screen">
-		<div class="animate__animated animate__fadeInLeft w-72 max-h-56 p-4 mb-24 text-center text-xl">
-	  		<h1>Hi! My name is Minh and I'm a software enthusiast. I've built a wide range of applications including web applications, search engines, AI systems and desktop games (Although barely any of them work very well!)</h1>
+		<img src="/images/dog-coding.gif" style="position: absolute;display: none; margin-bottom: 30px;" id="image-tag" class="mb-8">
+		<div class="animate__animated animate__fadeInLeft w-72 max-h-56 p-4 mb-24 text-center text-xl" onmouseover="chgImg('image-tag', 'text');" onmouseout="normalImg('image-tag','text')">
+	  		<h1 id="text">Hi! My name is Minh and I'm a software enthusiast. I've built a wide range of applications including web applications, search engines, AI systems and desktop games (Although barely any of them work very well!)</h1>
 		</div>
 	</div>
 </body>
+<script type="text/javascript" src="/client/crossfading.js"></script>
 </html>
