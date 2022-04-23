@@ -5,6 +5,7 @@ const { home } = require('./home.js');
 const { investment } = require('./investment.js');
 const { contact } = require('./contact.js');
 const { audio_app } = require('./audio-app.js');
+const { links } = require('./links.js');
 
 router.get('/api', api);
 
@@ -15,5 +16,7 @@ router.get('/investment', investment);
 router.get('/contact', contact);
 
 router.get('/audio-app', audio_app);
+
+router.get('/links', links);
 
 module.exports = router;

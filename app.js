@@ -6,7 +6,6 @@ const path = require('path');
 // const sequelizer = require('./src/utils/database.js');
 
 app.use(express.static(__dirname + '/src/public'));
-console.log(__dirname);
 
 app.use(router);
 
