@@ -7,7 +7,6 @@ const email_password = process.env.PASSWORD;
 var transporter = nodemailer.createTransport({
 	service: 'gmail',
 	port: 465,
-	secure: true,
 	auth: {
 		user: 'elongatedmusk6969@gmail.com',
 		pass: email_password
@@ -26,7 +25,6 @@ exports.contact_post = (req, res) => {
 		subject: `Contact request from personal website.\nName: ${req.body.name}\nEmail: ${req.body.email}`,
 		text: req.body.message
 	}
-
 
 	transporter.sendMail(mail_options, (error, info) => {
 		if (error) {
