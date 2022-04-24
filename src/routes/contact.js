@@ -5,10 +5,11 @@ const nodemailer = require('nodemailer');
 const email_password = process.env.PASSWORD;
 
 var transporter = nodemailer.createTransport({
-	service: 'gmail',
+	service: 'smtp.mail.yahoo.com',
 	port: 465,
+	secure: false,
 	auth: {
-		user: 'elongatedmusk6969@gmail.com',
+		user: 'elongatedmusk@yahoo.com',
 		pass: email_password
 	}
 })
